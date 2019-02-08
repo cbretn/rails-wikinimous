@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Articles have a title and a content
-class ArticleController < ApplicationController
+class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
 
   def index
